@@ -1,0 +1,274 @@
+
+
+*{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    position:sticky;
+    top: 0;
+    background-color: white;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgb(176, 164, 164);
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    z-index: 1;
+}
+
+header img{
+    height: 200px;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    width: 25%;
+    border-bottom-right-radius: 70%;
+    box-shadow: 0 5px 10px rgb(80, 72, 72);
+}
+
+
+.navegation{
+   display: flex;
+   align-items: center;
+   margin-left: 50px;
+}
+
+.navegation img{
+    position: absolute;
+    left: 1330px;
+    width: 600px;
+}
+
+.navegation a{
+    margin-right: 180px;
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.navegation h3:hover{
+   color: rgb(238, 36, 36)
+}
+
+.menu-icon{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 10%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.menu-icon img{
+    height: 80px;
+}
+
+.presentation{
+    display: flex;
+    background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.75)), url("saimoto/fondosushi\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px ;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.welcome h1{
+    font-size: 100px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.welcome p{
+    font-size: 30px;
+    margin-left: 200px ;
+    margin-right: 200px ;
+    margin-bottom: 40px;
+}
+
+.welcome button{
+    height: 100px;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 25px;
+    background-image: url("saimoto/boton.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    box-shadow: 5px 5px 5px rgb(85, 83, 83);
+}
+
+.section-2{
+    height: 1500px;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
+.palillos{
+    position: absolute;
+    height: 1500px;
+    width: 2000px;
+    margin-left: 40px;
+}
+.start{
+    position: relative;
+    top: 200px;
+    width: 50%;
+    margin-left: auto ;
+    margin-right: 90px;
+    text-align: justify;
+}
+.start-text{
+   display: flex;
+   justify-content: flex-end;
+   flex-direction: row;
+   font-size: 20px;
+   align-items: center;
+}
+
+.start-text img{
+    height: 300px;
+    margin-left:20px;
+}
+
+.start h1{
+   margin-left:50px;
+   font-size: 50px;
+   font-family: 'League Spartan', sans-serif;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.start span{
+    background-image: url("saimoto/boton.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 5px 30px;
+    box-shadow: 5px 5px 5px rgb(118, 116, 116);
+}
+
+.start-text-2{
+    font-size: 20px;
+    width: 70%;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.container-section-2{
+    position: relative;
+    top: -40px
+}
+
+.container-section-3{
+    position: relative;
+    top: 100px;
+    text-align: justify;
+    bottom:-70px;
+}
+
+.start-text2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+    width: 50%;
+    font-size: 20px;
+    align-items: center;
+}
+
+.start-text2 img{
+    height: 400px;
+    width: 300px;
+    margin-right:20px;
+    margin-left: 60px;
+}
+.start-text2-2{
+    width: 60%;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+
+.start2 h1{
+    margin-left:70px;
+    font-size: 50px;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.start2 span{
+    background-image: url("saimoto/boton.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    padding: 5px 30px;
+    box-shadow: 5px 5px 5px rgb(118, 116, 116);
+}
+
+.menu{
+    background-color: rgb(0, 0, 0);
+    height: 1500px;
+}
+
+.menu h1{
+    margin-top: 150px;
+    margin-left: 200px;
+    font-size: 180px;
+}
+
+.container-menu img{
+    width: 100%;
+}
+
+.menu-tittle{
+    background-color: rgba(60, 57, 57, 0.317);
+    color: white;
+    text-align: center;
+    border-bottom: 5px solid white;
+}
+
+.menu-tittle h1{
+    padding-right: 180px;
+}
+
+footer{
+    display: flex;
+    background-color: white;
+    height: 200px;
+    border-top: 3px solid rgb(160, 153, 153); 
+    margin: 20px;
+    margin-top: 300px;
+    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+}
+
+footer h1{
+    margin: 50px;
+    font-size: 30px;
+}
+
+footer button img{
+    height: 40px;
+}
+
+footer div{
+   margin-left: auto;
+   margin-right: 100px;
+}
+
+footer button{
+    border-radius: 50%;
+    margin-right: 80px;
+    box-shadow: 5px 5px 5px rgb(118, 116, 116);
+}
